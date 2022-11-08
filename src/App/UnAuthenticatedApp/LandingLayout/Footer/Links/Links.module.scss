@@ -1,0 +1,26 @@
+.linksContainer {
+    width:400px;
+    height:140px;
+    margin-left: 184px;
+    margin-top: 20px;
+    position: relative;
+    // border: 1px solid #ccc;
+    z-index: 9999999999999;
+    display: flex;
+    flex-wrap: wrap;
+
+        div {      
+            text-align: left;
+            display: block !important;
+            flex: 50%;
+            width: 100%;
+            a {
+    
+            font-size: 30px;    
+            font-family: "yekanbakhregular" !important;
+            color: #fff;
+        }
+
+    }
+    
+}

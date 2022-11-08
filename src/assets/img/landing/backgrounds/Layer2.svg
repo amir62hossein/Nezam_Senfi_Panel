@@ -1,0 +1,14 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_207" data-name="Rectangle 207" width="58" height="58" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(2.417 7.25)">
+    <path id="Path_177" data-name="Path 177" d="M2,8.417V47.083A2.417,2.417,0,0,0,4.417,49.5H52.75a2.417,2.417,0,0,0,2.417-2.417V8.417A2.417,2.417,0,0,0,52.75,6H4.417A2.417,2.417,0,0,0,2,8.417Zm48.333,36.25H6.833V10.833h43.5Z" transform="translate(-2 -6)" fill="#fff"/>
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="2.417" cy="2.417" r="2.417" transform="translate(7.25 7.25)" fill="#fff"/>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="2.417" cy="2.417" r="2.417" transform="translate(14.5 7.25)" fill="#fff"/>
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="2.417" cy="2.417" r="2.417" transform="translate(21.75 7.25)" fill="#fff"/>
+    <path id="Path_178" data-name="Path 178" d="M20.833,36.083H16V26.417A2.417,2.417,0,0,1,18.417,24h0a2.417,2.417,0,0,1,2.417,2.417Z" transform="translate(0.917 -2.25)" fill="#fff"/>
+    <path id="Path_179" data-name="Path 179" d="M26.833,36.917H22v-14.5A2.417,2.417,0,0,1,24.417,20h0a2.417,2.417,0,0,1,2.417,2.417Z" transform="translate(2.167 -3.083)" fill="#fff"/>
+    <path id="Path_180" data-name="Path 180" d="M32.833,35.875H28V27.417A2.417,2.417,0,0,1,30.417,25h0a2.417,2.417,0,0,1,2.417,2.417Z" transform="translate(3.417 -2.042)" fill="#fff"/>
+  </g>
+</svg>

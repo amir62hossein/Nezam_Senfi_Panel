@@ -1,0 +1,57 @@
+.container {
+  background-color: #eee7ec;
+
+  width: 100%;
+
+  .h3 {
+    margin: 20px 0;
+    margin-top: 60px;
+    text-align: center;
+    color: #5c1449;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .itemContainer {
+    width: fit-content;
+    
+    .amoozesh {
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      background-image: url(../../../assets/img/landing/organizations/vezaratAmoozesh.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .olia {
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      background-image: url(../../../assets/img/landing/organizations/greenlogo.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      // margin-left:60px;
+    }
+    .etehadie {
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      background-image: url(../../../assets/img/logo/logoAtiNegar-removebg-preview.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .keshvar {
+      width: 125px;
+      height: 125px;
+      display: inline-block;
+      padding-top: 10px;
+      background-repeat: no-repeat;
+      background-image: url(../../../assets/img/landing/organizations/LogoJahad.png);
+      background-size: cover;
+      background-position: bottom;
+
+
+    }
+  }
+}

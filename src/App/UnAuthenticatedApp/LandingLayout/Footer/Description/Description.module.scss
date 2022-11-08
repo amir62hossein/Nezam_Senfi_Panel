@@ -1,0 +1,31 @@
+.footerDescription {
+    // border: 1px solid #ccc;
+    margin-top: 170px;
+    width:60%;
+    height:300px;
+    position: relative;
+    z-index: 99;
+    box-sizing: border-box;
+    padding-left: 5rem;
+
+    .descriptionTitle {
+        font: normal normal bold 90px/153px "kalamehbold";
+        color: #fff;
+    }
+
+    .description {
+        font: normal normal bold 16px "yekanbakhregular";
+        color: #fff;
+    }
+}
+@media (max-width:999px) {
+    .descriptionTitle {
+        font-size: 4rem!important;
+    }
+}
+@media (max-width:720px) {
+    .footerDescription{
+        width: 100%!important;
+        padding: 0 1.5rem!important;
+    }
+}

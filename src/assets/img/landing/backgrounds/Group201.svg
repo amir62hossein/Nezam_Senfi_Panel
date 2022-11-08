@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2162.12" height="1256.061" viewBox="0 0 2162.12 1256.061">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.203" y1="0.408" x2="0.728" y2="0.277" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a9ff" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#00a9ff"/>
+    </linearGradient>
+    <filter id="Mask_Hero" x="0" y="0" width="2162.12" height="1256.061" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.767" y1="0.332" x2="0.983" y2="1.047" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a9ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0073ae"/>
+    </linearGradient>
+    <filter id="Mask_Hero-2" x="0" y="0" width="2162.12" height="1256.061" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_201" data-name="Group 201" transform="translate(154.801 96.913)">
+    <g transform="matrix(1, 0, 0, 1, -154.8, -96.91)" filter="url(#Mask_Hero)">
+      <path id="Mask_Hero-3" data-name="Mask Hero" d="M14961.3,9.091s-771.97-328.788-1266.667-351.515-712.121,260.606-712.121,260.606l-24.939-1015.151h2012.12Z" transform="translate(-12882.57 1171.97)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -154.8, -96.91)" filter="url(#Mask_Hero-2)">
+      <path id="Mask_Hero-4" data-name="Mask Hero" d="M14961.3,9.091s-771.97-328.788-1266.667-351.515-712.121,260.606-712.121,260.606l-24.939-1015.151h2012.12Z" transform="translate(-12882.57 1171.97)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

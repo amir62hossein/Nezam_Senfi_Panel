@@ -1,0 +1,91 @@
+.footerTopContaienr {
+  // background-color: rgb(40, 108, 235);
+  background-color: #300021;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  padding: 20px 0;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    .logo {
+      background: url(../../../../assets/img/svg/sepandLogo.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+    }
+    .logoText {
+      background: url(../../../../assets/img/svg/sepand-txt.svg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 350px;
+      height: 35px;
+      margin-left: 10px;
+    }
+    .footerList {
+      min-width: 200px;
+      .listHeader {
+        font-weight: bold;
+        font-size: 18px;
+      }
+      li {
+        font-size: 13px;
+        display: block;
+        margin: 15px 0;
+      }
+    }
+    .footerTopBackground {
+      // border:1px solid black;
+      width: 1600px;
+      height: 623px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url("../../../../assets/img/landing/backgrounds/Path125.png")
+        no-repeat padding-box;
+      background-position: 68% -350px;
+      background-size: 110%;
+    }
+  }
+
+  .footerBotContainer {
+    height: 200px;
+    z-index: 11;
+    // border: 1px solid black;
+    position: relative;
+    bottom: 0;
+
+    .footerBotBackground {
+      left: 0;
+      position: absolute;
+      height: 300px;
+      top: -100px;
+      background: transparent
+        url("../../../../assets/img/landing/backgrounds/Path2.png") no-repeat
+        padding-box;
+      background-position: -70px -280px;
+      background-size: 110%;
+      width: 100%;
+
+      z-index: 99999999999;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .footerBotContainer {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .TopPart {
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .linkContainer {
+    justify-content: space-evenly !important;
+  }
+}

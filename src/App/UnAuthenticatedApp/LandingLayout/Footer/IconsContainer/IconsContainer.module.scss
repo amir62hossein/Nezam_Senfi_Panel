@@ -1,0 +1,19 @@
+.iconsContainer {
+    width:30%;
+    height:100px;
+    // border: 1px solid #ccc;
+    position: absolute;
+    bottom:110px;
+    right:0;
+
+    img {
+        width: 42px;
+        height: 42px;
+        margin-right: 40px;
+    }
+}
+@media (max-width:720px) {
+    .iconsContainer{
+        display: none!important;
+    }
+}

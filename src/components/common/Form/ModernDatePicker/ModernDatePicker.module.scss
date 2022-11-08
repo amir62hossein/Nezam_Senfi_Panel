@@ -1,0 +1,81 @@
+.text-input-margin {
+  margin: 3px 0;
+}
+// .invalid {
+//   border: 1px solid #ea5455;
+// }
+// .valid {
+//   border: 1px solid #28c76f;
+// }
+.text-input-error-message {
+  color: #fff;
+  padding: 5px;
+  font-size: 0.8rem;
+  border-radius: 0.428rem;
+  background-color: #ea5455;
+}
+.disabled-input {
+  background-color: hsl(0, 0%, 95%) !important;
+  width: 100%;
+  text-align: left !important;
+}
+
+.date {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  .dateinput {
+    background-color: #fff !important;
+    width: 100%;
+    text-align: left !important;
+    border: 1px solid #7d7d7d !important;
+    border-radius: 3px !important;
+    &::placeholder {
+      color: #464646 !important;
+    }
+  }
+}
+.panelDate {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  .dateinput {
+    background-color: #fff !important;
+    width: 100%;
+    text-align: left !important;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px !important;
+  }
+  .is-valid {
+    border: 1px solid #28c76f !important;
+  }
+  // check if works
+  .dateinput.is-invalid {
+    border: 1px solid #ea5455 !important;
+  }
+}
+.dateinput.panelStyle {
+  background-color: #fff !important;
+  width: 100%;
+  text-align: left !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 5px !important;
+  &::placeholder {
+    color: #b2b1b1 !important;
+    font-size: 11px;
+  }
+}
+.dateinput.panelStyle {
+  background-color: #fff !important;
+  width: 100%;
+  text-align: left !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 5px !important;
+  &::placeholder {
+    color: #b2b1b1 !important;
+    font-size: 11px;
+  }
+}
+
+.calendar {
+  z-index: 1000;
+  position: relative;
+}

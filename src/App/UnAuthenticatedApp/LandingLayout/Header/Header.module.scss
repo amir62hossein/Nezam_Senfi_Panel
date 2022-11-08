@@ -1,0 +1,169 @@
+// header{
+//     padding: 30px 80px;
+//     position: relative;
+//     z-index: 100;
+//     width: 100%;
+//     overflow: hidden;
+//     nav{
+//         .titleContainer{
+//             display: flex;
+
+//             .siteTitle {
+//                 font-size: 35px;
+//                 font-family: "kalamehsemibold" !important;
+//                 color: #fff;
+//             }
+
+//             .sigmaSign {
+//                 color: #fff;
+//                 width: 30.55px;
+//                 height: 30.88px;
+//                 display: inline-block;
+//                 margin-right: 20px;
+//                 border: 1px solid #fff;
+//             }
+
+//         }
+//     }
+
+// }
+
+// .navContainer{
+//     ul {
+//         li{
+//             margin: 0px 20px;
+//             a{
+//                 color: #fff;
+//                 font-size: 16px;
+//                 font-family: "kalamehmedium" !important;
+//             }
+//         }
+//     }
+
+// }
+
+// .authButtonsContainer {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     a{
+//         color: #fff;
+//         font-size: 16px;
+//         font-family: "kalamehmedium" !important;
+//     }
+
+//     .authLoginLinkContainer {
+//         display: inline-block;
+//         width: 75px;
+
+//         .authLoginLink {
+
+//         }
+//     }
+
+// }
+.header {
+  // margin-top: 10px;
+  position: relative;
+  z-index: 100;
+  // width: 100vw;
+  // box-shadow: 0px 0.5px 0.1px 0.1px #ccc;
+  background-color: #5c1449;
+  .NavItem {
+    font-size: 1.25rem;
+    margin: 0 25px;
+    padding: 0 5px;
+    color: white;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .TotaldropDown {
+    position: relative;
+    div {
+      margin-top: 3rem;
+    }
+  }
+
+  .BtnHolder {
+    background-color: rgba(255, 255, 255, 0) !important;
+    height: 4rem !important;
+    width: 4rem !important;
+    span {
+      width: 100% !important;
+      height: 100% !important;
+      background-image: url("../../../../assets/img/landing/backgrounds/Group 272.png") !important;
+      background-size: 100% !important;
+    }
+  }
+
+  .navHolderBtn {
+    display: flex;
+    align-items: center !important;
+    .LoginHolder {
+      height: 100% !important;
+      .authLoginLink {
+        color: #fff !important;
+        margin-right: 2rem;
+        font-family: "kalamehmedium" !important;
+        font-size: 1.2rem !important;
+      }
+    }
+  }
+  .NavbarHolder {
+    background: transparent;
+    .headerText {
+      font-size: 16px;
+      color: white;
+      font-style: italic;
+    }
+    .BrandHolder {
+      font-family: "kalamehextrabold" !important;
+    }
+    .LinkHolder {
+      font-size: 1.2rem !important;
+      margin: 0 1rem;
+      font-family: "kalamehmedium" !important;
+    }
+  }
+}
+@media (max-width: 990px) {
+  .header {
+    // position: absolute;
+    .CollapseHolder {
+      .navHolderBtn {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        box-sizing: border-box;
+        padding-left: 0.8rem;
+        .LoginHolder {
+          margin-bottom: 1rem !important;
+        }
+      }
+      .NavPart {
+        background: rgb(0, 134, 223) !important;
+        box-sizing: border-box !important;
+        padding: 1rem !important;
+      }
+      .navHolderBtn {
+        box-sizing: border-box !important;
+        padding: 1rem !important;
+        margin-top: -0.5rem;
+        .LoginHolder {
+          box-sizing: border-box;
+          padding: 0 1rem !important;
+          .authLoginLink {
+            margin-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .header {
+    // padding: 1rem !important;
+  }
+}

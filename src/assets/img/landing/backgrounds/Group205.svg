@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.027" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a9ff"/>
+      <stop offset="1" stop-color="#0073ae"/>
+    </linearGradient>
+    <filter id="Rectangle_213" x="9.898" y="10" width="340" height="340" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#0073ae" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_219" x="0" y="0" width="360" height="360" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-color="#0073ae" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_205" data-name="Group 205" transform="translate(-693 -761)">
+    <g transform="matrix(1, 0, 0, 1, 693, 761)" filter="url(#Rectangle_213)">
+      <rect id="Rectangle_213-2" data-name="Rectangle 213" width="220" height="220" rx="50" transform="translate(79.9 60)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="بهترین_و_مجرب_ترین_اساتید" data-name="بهترین و مجرب ترین اساتید" transform="translate(795.002 940)" fill="#fff" font-size="22" font-family="YekanBakh-Medium, Yekan Bakh" font-weight="500"><tspan x="8" y="20">بهترین و مجرب ترین</tspan><tspan y="20"> </tspan><tspan x="62" y="54">اساتید</tspan></text>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(854 846)">
+      <g id="invisible_box" data-name="invisible box">
+        <rect id="Rectangle_206" data-name="Rectangle 206" width="58" height="58" fill="none"/>
+      </g>
+      <g id="Q3_icons" data-name="Q3 icons" transform="translate(4.831 2.415)">
+        <g id="Group_200" data-name="Group 200">
+          <circle id="Ellipse_20" data-name="Ellipse 20" cx="2.417" cy="2.417" r="2.417" transform="translate(9.669 32.627)" fill="#fff"/>
+          <path id="Path_172" data-name="Path 172" d="M36.917,29h-14.5a2.417,2.417,0,1,0,0,4.833h14.5a2.417,2.417,0,0,0,0-4.833Z" transform="translate(-0.665 3.627)" fill="#fff"/>
+          <circle id="Ellipse_21" data-name="Ellipse 21" cx="2.417" cy="2.417" r="2.417" transform="translate(9.669 39.877)" fill="#fff"/>
+          <path id="Path_173" data-name="Path 173" d="M36.917,35h-14.5a2.417,2.417,0,1,0,0,4.833h14.5a2.417,2.417,0,0,0,0-4.833Z" transform="translate(-0.665 4.877)" fill="#fff"/>
+          <path id="Path_174" data-name="Path 174" d="M25.25,16.5A7.25,7.25,0,1,0,18,9.25a7.25,7.25,0,0,0,7.25,7.25Zm0-9.667A2.417,2.417,0,1,1,22.833,9.25,2.417,2.417,0,0,1,25.25,6.833Z" transform="translate(-1.081 -1.998)" fill="#fff"/>
+          <path id="Path_175" data-name="Path 175" d="M13,20.833v4.833a2.417,2.417,0,0,0,2.417,2.417h21.75a2.417,2.417,0,0,0,2.417-2.417V20.833A21.75,21.75,0,0,0,26.292,16,21.75,21.75,0,0,0,13,20.833Zm4.954,2.417a16.312,16.312,0,0,1,8.337-2.417,16.312,16.312,0,0,1,8.338,2.417Z" transform="translate(-2.123 0.919)" fill="#fff"/>
+          <path id="Path_176" data-name="Path 176" d="M48.709,2H42.667a2.417,2.417,0,0,0,0,4.833H47.5v43.5H8.834V6.834h4.833a2.417,2.417,0,1,0,0-4.833H7.625A3.5,3.5,0,0,0,4,5.625V51.542a3.5,3.5,0,0,0,3.625,3.625H48.709a3.5,3.5,0,0,0,3.625-3.625V5.625A3.5,3.5,0,0,0,48.709,2Z" transform="translate(-3.998 -1.998)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 693, 761)" filter="url(#Rectangle_219)">
+      <g id="Rectangle_219-2" data-name="Rectangle 219" transform="translate(70 50)" fill="none" stroke="#00a9ff" stroke-width="3">
+        <rect width="240" height="240" rx="58" stroke="none"/>
+        <rect x="1.5" y="1.5" width="237" height="237" rx="56.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
